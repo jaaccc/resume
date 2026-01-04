@@ -1,0 +1,107 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{textcomp}
+
+\titleformat{\section}{\normalfont\bfseries}{}{0pt}{}
+\titlespacing{\section}{0pt}{1em}{-0.75em}
+\setlist[itemize,1]{topsep=2pt, itemsep=-2pt, leftmargin=2em}
+\setlist[itemize,2]{topsep=-4pt, itemsep=-2pt, leftmargin=2em, label=\textopenbullet}
+\pagenumbering{gobble}
+
+\title{resume}
+\author{jacob mohamed}
+\date{13/12/2025}
+
+\begin{document}
+	% main heading
+	\begin{center}
+		{\huge\textbf{Daniel Jacob Mohamed}}\\
+		djacobmohamed@gmail.com \textbullet\space (437) 229-4708 \textbullet\space linkedin.com/jaaccc \textbullet\space jaaccc.me
+		\noindent\rule{\linewidth}{1pt}
+	\end{center}
+	
+	\section*{SUMMARY}
+		\noindent\rule{\linewidth}{0.5pt}
+		Fourth-year Computer Engineering student at Toronto Metropolitan University with hands-on experience in both hardware and software development. Passionate about efficient and user-centered technology solutions, from FPGA-based systems to full-stack web and app development. Strong foundation in programming, digital design, and UI/UX principles, and eager to learn and explore new technologies.
+	
+	\section*{TECHNICAL SKILLS}
+		\noindent\rule{\linewidth}{0.5pt}
+		% languages
+		\textbf{Languages:} C/C++, CSS, HTML, Java, JavaScript, LaTeX, Python, VHDL\\
+		% software and tools
+		\textbf{Software \& Tools:} Bash, Cadence, Figma, Fritzing, Git, Microsoft Office Suite\\
+		% concepts
+		\textbf{Concepts:} Computer Networks, Embedded Systems, Front-End Web Development, Hardware Debugging/Testing, Integrated Circuits, Object Oriented Programming, Signal Processing, Software Development
+		
+	\section*{PROJECTS}
+		\noindent\rule{\linewidth}{0.5pt}
+		%
+		\textbf{16-Bit RISC CPU Design --- VHDL, Quartus II}\\
+		\textit{Computer Organization and Architecture}, Toronto Metropolitan University
+		\begin{itemize}
+			\item Designed and simulated a 16-bit RISC CPU with datapath, control unit, and reset circuit using VHDL
+			\item Implemented instructions such as ADD, SUB, LUI, and JMP, verified through waveform simulation
+			\item Structured project using hierarchical VHDL modules in Quartus II, simulating clock behavior and instruction flow
+		\end{itemize}
+		%
+		\textbf{CMOS 1-Bit Full Adder --- Cadence Virtuoso, TSMC 180nm}\\
+		\textit{Low Power Digital Integrated Circuits}, Toronto Metrpolitan University
+		\begin{itemize}
+			\item Designed and simulated a CMOS 1-bit full adder using Cadence Virtuoso and the TSMC 180nm PDK
+			\item Built the design hierarchically from scratch, starting with custom NMOS and PMOS transistor layouts, then CMOS inverters, NAND gates, and finally the full adder circuit
+			\item Conducted schematic entry, layout, DRC/LVS checks, and post-layout simulation to validate circuit functionality and ensure design rule compliance
+		\end{itemize}
+		%
+		\textbf{Embedded Media Center --- C, Arm Cortex-M3, Keil uVision}\\
+		\textit{Embedded Systems Design}, Toronto Metropolitan University
+		\begin{itemize}
+			\item Designed and implemented an embedded media center featuring a GUI with a photo gallery, MP3 player, and interactive games
+			\item Integrated RTOS-based multitasking to handle concurrent tasks for LCD rendering, USB audio streaming, and input control using thread scheduling
+		\end{itemize}
+		%
+		\textbf{GUI Banking Application --- Java, JavaFX}\\
+		\textit{Object-Oriented Engineering Analysis and Design}, Toronto Metropolitan University
+		\begin{itemize}
+			\item Designed a full-featured banking application with user login, account management, and transaction logic using Java and JavaFX
+			\item Applied object-oriented design principles and used state design patterns to implement switchable admin/customer user interfaces
+			\item Modeled class interactions with Violet UML diagrams and documented system behavior through a detailed project report
+		\end{itemize}
+		
+	\section*{EDUCATION}
+		\noindent\rule{\linewidth}{0.5pt}
+		\textbf{Computer Engineering --- BEng \hfill Sep. 2022 - May 2026}\\
+		\textit{Toronto Metropolitan University} \hfill Toronto, ON
+		\begin{itemize}
+			\item GPA: 3.22
+			\item Extracurriculars:
+			\begin{itemize}
+				%
+				\item \textit{Marketing Lead}, TM Aerial Vehicles (Sep. 2024 - Present)
+				%
+				\item \textit{Editor/Writer}, Breaking MUES (Nov. 2023 - Apr. 2024)
+			\end{itemize}
+		\end{itemize}
+		
+	\section*{WORK EXPERIENCE}
+		\noindent\rule{\linewidth}{0.5pt}
+		%
+		\textbf{Meal Advisor \hfill May 2025 - Present}\\
+		\textit{M\&M Food Market \hfill Toronto, ON}
+		\begin{itemize}
+			\item Advised customers on meal selections and promotions, applied suggestive selling techniques, and supported daily operations including customer service, inventory management, and food sampling
+		\end{itemize}
+		%
+		\textbf{Sales Associate \hfill Feb. 2024 - Feb. 2025}\\
+		\textit{Rexall \hfill Toronto, ON}
+		\begin{itemize}
+			\item Provided exceptional customer service and managed inventory in a fast-paced retail setting
+		\end{itemize}
+		%
+		\textbf{Food Assembler/Line Cook \hfill Aug. 2022 - Sep. 2023}\\
+		\textit{Bacon Nation \hfill Toronto, ON}
+		\begin{itemize}
+			\item Prepared food orders efficiently while upholding consistency, quality, and food safety standards
+		\end{itemize}
+\end{document}
